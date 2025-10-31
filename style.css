@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f0fa; /* azul muy claro */
+  color: #2c3e50; /* gris azulado */
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #34495e; /* azul oscuro */
+  color: #ecf0f1; /* gris claro */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+/* Título principal */
+main h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 30px 0 20px;
+  color: #2c3e50;
+  text-shadow: 1px 1px 2px #bdc3c7;
+}
+
+/* Secciones de robots */
+main div {
+  background-color: #f7faff; /* blanco azulado */
+  border: 1px solid #d6eaf8;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+main div:hover {
+  transform: scale(1.02);
+}
+
+/* Imágenes animadas */
+main img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Subtítulos de robots */
+main h3 {
+  font-size: 24px;
+  color: #2980b9; /* azul medio */
+  margin-bottom: 10px;
+}
+
+/* Descripción de cada robot */
+main p {
+  font-size: 16px;
+  color: #34495e;
+  text-align: justify;
+}
+
+/* Pie de página */
+footer {
+  background-color: #34495e;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
